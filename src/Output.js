@@ -41,7 +41,12 @@ export function Output({ todos, setShowModal, setT, setValue, deleteTodo }) {
                       key={row.id}
                       sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
                     >
-                      <TableCell component="th" scope="row" align="center">
+                      <TableCell
+                        component="th"
+                        scope="row"
+                        align="center"
+                        sx={{ minWidth: "32ch" }}
+                      >
                         {row.todo}
                       </TableCell>
                       <TableCell align="center">

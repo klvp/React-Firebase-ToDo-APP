@@ -46,7 +46,7 @@ function Register() {
         />
         <br /> <br />
         <Button variant="outlined" type="submit" className="">
-          Add Task
+          Register
         </Button>
       </form>
     </div>
